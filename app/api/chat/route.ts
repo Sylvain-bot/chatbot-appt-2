@@ -13,7 +13,7 @@ const tavilyClient = tavily({ apiKey: process.env.TAVILY_API_KEY });
 // Charger le contenu de l'inventaire
 function getInventoryContent(): string {
   try {
-    const filePath = join(process.cwd(), 'app6.txt');
+    const filePath = join(process.cwd(), 'app2.txt');
     return readFileSync(filePath, 'utf-8');
   } catch (error) {
     console.error('Erreur lors de la lecture du fichier inventaire:', error);

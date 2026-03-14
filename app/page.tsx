@@ -84,8 +84,8 @@ export default function Home() {
     <div className="flex flex-col h-full w-full bg-[#e5ddd5] md:max-w-4xl md:mx-auto md:shadow-lg overflow-hidden">
       {/* Header */}
       <div className="bg-[#aa9592] text-white p-3 sm:p-4 shadow-md flex-shrink-0">
-        <h1 className="text-lg sm:text-xl md:text-2xl font-bold">🏠 Assistant Appartement 6</h1>
-        <p className="text-xs sm:text-sm opacity-90">Rue des Trois Rois</p>
+        <h1 className="text-lg sm:text-xl md:text-2xl font-bold">🏠 Assistant Appartement 2</h1>
+        <p className="text-xs sm:text-sm opacity-90">Appartement 2</p>
       </div>
 
       {/* Messages */}
@@ -93,7 +93,7 @@ export default function Home() {
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20 pointer-events-none"
-          style={{ backgroundImage: 'url(/appt6.jpeg)' }}
+          style={{ backgroundImage: 'url(/appt2.jpeg)' }}
         />
         <div className="p-3 sm:p-4 space-y-3 sm:space-y-4 relative z-10">
         {messages.map((message, index) => (

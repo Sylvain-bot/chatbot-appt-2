@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Assistant Appartement - Rue des Trois Rois',
+  title: 'Assistant Appartement 2',
   description: 'Chatbot d\'assistance pour votre séjour',
   manifest: '/manifest.json',
   appleWebApp: {
