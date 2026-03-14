@@ -81,15 +81,15 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col h-full w-full bg-[#e5ddd5] md:max-w-4xl md:mx-auto md:shadow-lg overflow-hidden">
+    <div className="flex flex-col h-full w-full bg-[#efefef] md:max-w-4xl md:mx-auto md:shadow-lg overflow-hidden">
       {/* Header */}
-      <div className="bg-[#aa9592] text-white p-3 sm:p-4 shadow-md flex-shrink-0">
+      <div className="bg-[#1a1a1a] text-white p-3 sm:p-4 shadow-md flex-shrink-0">
         <h1 className="text-lg sm:text-xl md:text-2xl font-bold">🏠 Assistant Appartement 2</h1>
         <p className="text-xs sm:text-sm opacity-90">Appartement 2</p>
       </div>
 
       {/* Messages */}
-      <div ref={messagesContainerRef} className="flex-1 overflow-y-auto bg-[#e5ddd5] relative">
+      <div ref={messagesContainerRef} className="flex-1 overflow-y-auto bg-[#efefef] relative">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20 pointer-events-none"
@@ -106,7 +106,7 @@ export default function Home() {
             <div
               className={`max-w-[85%] sm:max-w-[80%] rounded-lg px-3 py-2 sm:px-4 sm:py-3 ${
                 message.role === 'user'
-                  ? 'bg-[#aa9592] text-white rounded-br-none shadow-sm'
+                  ? 'bg-[#2c2c2c] text-white rounded-br-none shadow-sm'
                   : 'bg-white text-gray-800 shadow-sm rounded-bl-none'
               }`}
             >
@@ -137,9 +137,9 @@ export default function Home() {
           <div className="flex justify-start">
             <div className="bg-white text-gray-800 rounded-lg rounded-bl-none px-3 py-2 sm:px-4 sm:py-3 shadow-sm">
               <div className="flex space-x-2">
-                <div className="w-2 h-2 bg-[#aa9592] rounded-full animate-bounce"></div>
-                <div className="w-2 h-2 bg-[#aa9592] rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-                <div className="w-2 h-2 bg-[#aa9592] rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+                <div className="w-2 h-2 bg-[#7a7a7a] rounded-full animate-bounce"></div>
+                <div className="w-2 h-2 bg-[#7a7a7a] rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+                <div className="w-2 h-2 bg-[#7a7a7a] rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@ export default function Home() {
               <button
                 key={index}
                 onClick={() => setInput(question)}
-                className="text-xs sm:text-sm bg-[#aa9592]/10 hover:bg-[#aa9592]/20 active:bg-[#aa9592]/30 text-[#aa9592] px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-full border border-[#aa9592]/30 transition-colors touch-manipulation"
+                className="text-xs sm:text-sm bg-[#2c2c2c]/10 hover:bg-[#2c2c2c]/20 active:bg-[#2c2c2c]/30 text-[#2c2c2c] px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-full border border-[#2c2c2c]/30 transition-colors touch-manipulation"
               >
                 {question}
               </button>
@@ -174,13 +174,13 @@ export default function Home() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Écrivez votre message..."
-            className="flex-1 px-4 py-2.5 sm:px-4 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#aa9592] focus:border-transparent text-gray-800 bg-gray-50"
+            className="flex-1 px-4 py-2.5 sm:px-4 sm:py-3 text-sm sm:text-base border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#2c2c2c] focus:border-transparent text-gray-800 bg-white"
             disabled={isLoading}
           />
           <button
             type="submit"
             disabled={isLoading || !input.trim()}
-            className="bg-[#aa9592] hover:bg-[#8a7572] active:bg-[#6a5552] text-white p-2.5 sm:p-3 rounded-full font-medium disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors touch-manipulation flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center"
+            className="bg-[#2c2c2c] hover:bg-[#1a1a1a] active:bg-black text-white p-2.5 sm:p-3 rounded-full font-medium disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors touch-manipulation flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center"
           >
             {isLoading ? '...' : '➤'}
           </button>
