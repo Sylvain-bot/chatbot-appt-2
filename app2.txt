@@ -2,8 +2,8 @@ INFORMATIONS APPARTEMENT - RUE DES TROIS ROIS
 
 === ACCÈS ET ARRIVÉE ===
 Code porte d'entrée immeuble : c0650
-Étage : 3
-Code ou emplacement des clés : 3652
+Étage : 1
+Code ou emplacement des clés : 1652
 Heures d'arrivée : 15h
 Heures de départ : 10h
 
@@ -18,7 +18,7 @@ Thermostat : ...
 Température recommandée : 19°
 
 === CUISINE ===
-Machine à café : Tassimo
+Machine à café : Cafetière filtre
 Lave-vaisselle : non
 Four : ...
 Plaques de cuisson : induction
@@ -27,7 +27,7 @@ Où trouver les ustensiles : ...
 Où trouver la vaisselle : ...
 
 === LINGE ET LITERIE ===
-Oreillers et couettes: dans le siège banc d'appoint à côté de la table basse
+Oreillers et couettes: 
 Draps supplémentaires : ...
 Couvertures : ...
 Serviettes : ...
@@ -35,27 +35,6 @@ Lave-linge : Commun dans le patio de l'immeuble, la lessive se trouve dans le me
 Sèche-linge : Commun dans le patio de l'immeuble (ne pas utiliser entre 22h et 7h)
 Étendoir : Dans le placard a balais de l'appartement
 
-=== CANAPÉ LIT BZ ===
-Le canapé se transforme facilement en lit double. Voici comment l'utiliser :
-
-OUVERTURE :
-1. Retirez les coussins du canapé
-2. Attrapez le cadre métallique situé sous l'assise
-3. Tirez doucement vers vous en faisant ROULER le matelas sur ses roulettes
-4. Important : le matelas doit impérativement rouler sur les roulettes. S'il ne roule pas, repositionnez-le légèrement
-5. Le mécanisme se déplie naturellement et se met à plat sans effort
-6. Une fois déplié, le lit est prêt à l'emploi
-
-FERMETURE :
-1. Soulevez légèrement le matelas
-2. Faites-le ROULER en sens inverse sur ses roulettes
-3. Le mécanisme se replie naturellement
-4. Replacez les coussins sur le canapé
-
-Conseil : Le système est conçu pour être facile à manipuler. Pas besoin de forcer, tout s'enclenche naturellement dans les deux sens. L'essentiel est de bien faire rouler le matelas sur ses roulettes.
-
-Photos disponibles : BZouverture.gif, BZfermeture.gif
-(Pour voir les démonstrations en vidéo, demandez au chatbot)
 
 === ÉLECTROMÉNAGER ===
 
@@ -157,10 +136,10 @@ Bibliothèque: En haut de la rue sur la place Saint Gervais
 Coiffeur: Barbier coiffeur pour homme sur la place Saint Gervais à 50m du logement. Kenneth le gérant est très agréable
 
 === HISTOIRE DE L'IMMEUBLE ===
-Ce studio entièrement rénové en décembre 2025 prend place dans un ancien grenier, au dernier étage d'un bâtiment ancien chargé d'histoire.
+Cet stappartement entièrement rénové en février 2026 prend place dans une ancienne réserve du local commercial, dans un bâtiment ancien chargé d'histoire.
 L'immeuble a longtemps été une grande maison familiale, avant d'être transformé en appartements il y a une trentaine d'années. En rez-de-chaussée, on y trouvait autrefois un atelier de réparation de matériel électronique, témoin de la vie commerçante du quartier.
 
-Le studio a été refait à neuf, avec une attention particulière portée au confort, à la luminosité et à l'optimisation de l'espace, tout en conservant le charme de l'existant.
+Let appartement a été refait à neuf, avec une attention particulière portée au confort, à la luminosité et à l'optimisation de l'espace, tout en conservant le charme de l'existant.
 
 Photos disponibles : appartement avant travaux.jpeg, appartement avant travaux 2.jpeg
 (Pour voir les photos historiques de l'immeuble, demandez-les au chatbot)
@@ -179,4 +158,4 @@ Parcs : ...
 Si le Wifi ne fonctionne pas : ...
 Si le chauffage ne marche pas : me prévenir via SMS au 0651875143
 Si vous êtes enfermés dehors : code de la porte d'entrée: C0650
-En cas de panne d'électricité : ...
+En cas de panne d'électricité : 0972675050
