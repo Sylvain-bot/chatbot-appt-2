@@ -18,7 +18,7 @@ Thermostat : ...
 Température recommandée : 19°
 
 === CUISINE ===
-Machine à café : Cafetière filtre
+Machine à café : Tassimo
 Lave-vaisselle : non
 Four : ...
 Plaques de cuisson : induction
